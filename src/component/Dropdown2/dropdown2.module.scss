@@ -1,0 +1,115 @@
+.selectwrapper
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  margin-top: 10px;
+  cursor: pointer;
+ &:hover
+ {
+  cursor: pointer;
+ } 
+.option
+{
+animation-name: dropdownAnimate;
+animation-duration: 0.6s;
+position: absolute;
+top: 45px;
+display: flex;
+flex-direction: column;
+padding: 4px 0%;
+width: 100%;
+cursor: pointer;
+border-radius: 5px;
+filter: drop-shadow(0px 3px 6px #00000029);
+z-index: 2;
+transition: 0.6s all ease-in-out;
+&:hover
+{
+  cursor: pointer;
+}
+.option-rightside
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  text-align: right;
+  p
+  {
+    margin: 0;
+  }
+  div:nth-child(2)
+  {
+    margin: 0;
+    font-size: 8px;
+    display: flex;
+  }  
+ .original
+ {
+  text-decoration: line-through;
+  font-size: 8px;
+ }
+}
+.option-leftside
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+p
+{
+  margin: 0;
+}
+p:nth-child(2)
+{
+  margin: 0;
+  font-size: 8px;
+} 
+}
+}
+.optionmain:hover
+{
+    border-radius: 5px;
+}
+.optionmain
+{
+  width:88%;
+  margin: 0px auto;
+  display:flex;
+  justify-content:space-between; 
+  align-items: center;
+  filter:drop-shadow(0px 3px 6px #00000029);
+  box-shadow: 0px 3px 6px #00000029;
+  height:40px;
+  border-radius: 5px;
+  margin: 3px auto;
+  padding:0px 9px;
+  cursor: pointer;
+  z-index: 3;
+}
+h4
+{
+  margin: auto 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.option-main
+{
+  animation-duration: 1s;
+}
+}
+
+@keyframes dropdownAnimate {
+ from
+ {
+  opacity: 0;
+  top: -50px;
+ }
+  to
+  {
+    opacity: 1;
+    top: 45px;
+  }
+}
+

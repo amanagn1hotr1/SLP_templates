@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+$cardbgColor: #c8eaf8;
+%imageStyling {
+  width: 100%;
+  height: 100%;
+}
+.linestyle {
+  border: 1px dashed #5e5d83;
+  margin: 0;
+  width: 100%;
+  margin-top: 14px;
+}
+%benefitItemStyling {
+  display: flex;
+  gap: 10px;
+  margin: 3px 0px;
+  width: 90%;
+  align-items: baseline;
+}
+%titlewrapper {
+  display: flex;
+  width: 100%;
+  height: 25px;
+  gap: 9px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+%imagewrapperStyling {
+  width: 100%;
+  height: 268px;
+  object-fit: cover;
+  border: 0;
+  outline: none;
+}
+%offerTile {
+  display: inline;
+  font-weight: 500;
+}
+%textContentStyle {
+  width: 86%;
+  border-radius: 10px;
+  padding-left: 6.7%;
+  padding-right: 7.93%;
+  padding-top: 6%;
+  box-shadow: none;
+}
+%warningStyling2 {
+  color: #9896aa;
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+%buttonStyling2 {
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  height: 50px;
+  margin-right: 0;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0px;
+}
+@mixin priceTag($textColor: #fff) {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  height: auto;
+  font-family: "Roboto", sans-serif;
+}
+.titlewrapper1 {
+  @extend %titlewrapper;
+  .subscriptionTitle {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin-top: 0px;
+  }
+  .iconmain {
+    width: 24px;
+    height: 24px;
+  }
+}
+.mainCoverwrapper {
+  @extend %imagewrapperStyling;
+  img {
+    @extend %imageStyling;
+  }
+}
+
+.card1 {
+  // box-shadow: 5px 10px 30px #00000086;
+  max-height: 527px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #e5e5e5;
+  padding-bottom: 10px;
+  position: relative;
+  max-height: 527px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+.slick-center .card1 {
+  box-shadow: 5px 10px 30px #00000086;
+  margin-top: -20px;
+  margin-left: -5px;
+  margin-right: -5px;
+  border: 1px solid transparent;
+  z-index: 1; /* Bring the center slide to the front */
+  background-color: #fff; /* Set center slide background color */
+  // border: 1px solid #ccc; /* Add borders if desired */
+  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadows for separation */
+}
+.slick-track {
+  padding-top: 40px;
+}
+.RecommededCardStyling {
+  background-color: #0a083e;
+  color: #fefefe;
+}
+.arrowwrapper2
+{ 
+  width: 54px;
+  height:54px;
+  margin:0px 54px;
+  padding: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  cursor: pointer;
+  &:hover
+  {
+   opacity: 0.8;
+  }
+ .arrow-left
+ {
+   @extend %imageStyling;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   stroke: white;
+   position: absolute;
+ }
+ .arrow-right
+ {
+   @extend %imageStyling;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   stroke: white;
+   position: absolute;
+   transform: scaleX(-1);
+ }
+}
+.subshead {
+  text-align: center;
+  margin: 70px 0px;
+}
+.carousalwrapper2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  flex-wrap: nowrap;
+  height: 600px;
+  color: transparent;
+  align-items: center;
+  margin: 0px 0px;
+
+  .slick-active:not(.slick-center) {
+    width: 316px;
+    transition: transform 0.3s ease;
+    z-index: 0;
+  }
+
+  .slick-center .slick-slide {
+    transform: scale(1, 1.01);
+    z-index: 2;
+    margin-top: -10px;
+  }
+  .slick-slide {
+    transition: transform 0.3s ease; /* Add a transition for smooth scaling */
+  }
+  .mainWrapper2 {
+    border-radius: 10px;
+    width: 928px;
+    padding-right: 4px;
+    display: flex;
+    background-color: transparent;
+    height: 600px;
+    .cta-wrapper {
+      width: 276px;
+      display: flex;
+      flex-direction: column;
+      gap: -2px;
+      justify-content: center;
+      align-items: center;
+    }
+    .mainContentWrapper2 {
+      @extend %textContentStyle;
+      width: 87.6%;
+      border-radius: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 6%;
+      box-shadow: none;
+      .subscribebutton {
+        @extend %buttonStyling2;
+        cursor: pointer;
+      }
+      .discountText {
+        font-weight: 500;
+        .offer {
+          @extend %offerTile;
+        }
+        .originalPrice {
+          @extend %offerTile;
+          text-decoration: line-through;
+        }
+      }
+      .pricetagStyle {
+        @include priceTag($textColor: #ffffff);
+        p 
+        {
+          color: #000;
+          font-size: 36px;
+          font-weight: 600;
+          padding: 0;
+          margin: 0;
+        }
+        .secText 
+        {
+          font-size: 16px;
+          padding: 0;
+          margin-top: 18px;
+          margin-left: 4px;
+          color: #9896aa;
+          font-weight: 500;
+        }
+      }
+      .cta-wrapper1
+      {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: -2px;
+      justify-content: center;
+      align-items: center;
+      }
+      .warning2 {
+        @extend %warningStyling2;
+        margin-bottom: 0px;
+      }
+
+      .mid-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 19px;
+      }
+      .cta-wrapper {
+        width: 100%;
+        gap: 0px;
+      }
+    }
+    .actionbutton2 {
+      @extend %buttonStyling2;
+      width: 276px;
+      height: 50px;
+      margin-top: 16px;
+      align-self: center;
+      &:hover
+      {
+        opacity: 0.8;
+        cursor: pointer;
+      }
+    }
+    .benefitwrapper2 {
+      width: 273px;
+      margin: 0px 0px;
+      margin-top: 14px;
+      .benefit_heading {
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 0;
+        margin-bottom: 12px;
+        align-items: inherit;
+      }
+      .benefititem2 {
+        @extend %benefitItemStyling;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        padding: 0;
+
+        svg {
+          width: 12px;
+          height: 12px;
+        }
+      }
+      .imagewrapper {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+      }
+      img {
+        @extend %imageStyling;
+      }
+      .itemText {
+        font-size: 12px;
+        font-weight: 400;
+      }
+      .tick {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .couponstyle {
+      font-weight: 500;
+      font-size: 14px;
+      align-self: center;
+      text-decoration: underline;
+      cursor: pointer;
+      text-align: center;
+    }
+    .notappliedcoupon1 {
+      font-size: 14px;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+      font-weight: bold;
+      text-decoration: underline;
+      cursor: pointer;
+      z-index: 0;
+      font-family: "Roboto", sans-serif;
+    }
+    .appliedcouponstyling1 {
+      width: 270px;
+      background-color: #e6ffec;
+      color: #30b73b;
+      border-radius: 4px;
+      position: relative;
+      text-decoration: none;
+      align-items: center;
+      display: flex;
+      gap: 5px;
+      width: 100%;
+      z-index: 0;
+      margin: 6px 0px;
+      padding: 4px 0px;
+      p {
+        margin: 0;
+        color: #30b73b;
+        font-weight: bold;
+        font-size: 13px;
+        text-decoration: none;
+      }
+      .crossStyle {
+        width: 16px;
+        height: 13px;
+        position: absolute;
+        right: 4px;
+        &:hover
+        {
+          cursor: pointer;
+        }
+      }
+      .checkIconStyle {
+        width: 18px;
+        height: 18px;
+        stroke-width: 2px;
+        margin-left: 4px;
+      }
+    }
+  }
+}

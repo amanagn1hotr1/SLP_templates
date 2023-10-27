@@ -1,0 +1,200 @@
+import {MobileData} from "../src/utils/formatter";
+const mobiledata2:Array<MobileData>=[
+ {
+    id:0,
+    isRecommended:false,
+    textColor:"#0A083E",
+    primaryColor:"#FFF",
+    benefitColor:'#0A083E',
+    buttonColor:"#0A083E",
+    buttonTextColor:'#FFF',
+    subscriptionName:"Digital + Print",
+   originalPrice:"900",
+   discount:"50",
+  buttonPlaceholder:"Subscribe Now",
+  finalPrice:"499",
+  benefits:[
+  "Access All Digital Features",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",  
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",    
+],
+  tiers:
+  [{time:"1 year",price:"300",_id:0} ,{time:'2 year',price:"500",_id:1},{time:'3 year',price:"750",_id:2}],
+  offers:
+  [
+   { iconUrl:'https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-amazon-512.png',
+    offerText:'Enjoy 20% off with code XMAS20.Discover festive deals and spread the holiday cheer'},
+   {
+      iconUrl:'https://cdn.iconscout.com/icon/free/png-256/free-myntra-2709168-2249158.png',
+      offerText:'Enjoy 20% off with code XMAS20.Discover festive deals and spread the holiday cheer',
+},
+   { iconUrl:'https://cdn.iconscout.com/icon/free/png-256/free-myntra-2709168-2249158.png',
+   offerText:'Enjoy 20% off with code XMAS20.Discover festive deals and spread the holiday cheer',
+}
+ ] 
+ },   
+ {
+    id:1,
+    primaryColor:"#0A083E",
+    tickColor:"#80DA71",
+    isRecommended:false,
+    buttonColor:"#E73E88",
+    benefitColor:"#FFF",
+    textColor:"#FFF",
+    buttonTextColor:'#F9E1F8',
+   subscriptionName:"Digital + Print",
+   originalPrice:"1200",
+   discount:"30",
+  buttonPlaceholder:"Subscribe Now",
+  finalPrice:"840",
+  benefits:[
+  "Access All Digital Features",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",  
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",  
+  ],
+  tiers:
+  [{time:"1 year",price:"300",_id:0} ,{time:'2 year',price:"500",_id:1},{time:'3 year',price:"750",_id:2}],
+  offers:
+  [
+   { iconUrl:'https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-amazon-512.png',
+    offerText:'Enjoy 20% off with code XMAS20.Discover festive deals and spread the holiday cheer'},
+   {
+      iconUrl:'https://cdn.iconscout.com/icon/free/png-256/free-myntra-2709168-2249158.png',
+      offerText:'Enjoy 20% off with code XMAS20.Discover festive deals and spread the holiday cheer',
+},
+   { iconUrl:'https://cdn.iconscout.com/icon/free/png-256/free-myntra-2709168-2249158.png',
+   offerText:'Enjoy 20% off with code XMAS20.Discover festive deals and spread the holiday cheer',
+}
+ ] 
+ },   
+ {
+    id:2,
+    primaryColor:"#FFF",
+    tickColor:"#8C7FF7",
+    isRecommended:false,
+    textColor:'#0A083E',
+    benefitColor:'#0A083E',
+    buttonColor:"#0A083E",
+    buttonTextColor:'#FFF',
+   subscriptionName:"Digital + Print",
+   originalPrice:"900",
+   discount:"50",
+  buttonPlaceholder:"Subscribe Now",
+  finalPrice:"450",
+  benefits:[
+  "Access All Digital Features",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",    
+  "Access to outlook archives",    
+  "Access to outlook archives",    
+  ],
+  tiers:
+  [{time:"1 year",price:"300",_id:0} ,{time:'2 year',price:"500",_id:1},{time:'3 year',price:"750",_id:2}],
+
+ },   
+ {
+    id:3,
+    primaryColor:"#FFF",
+    benefitColor:'#0A083E',
+    isRecommended:false,
+    textColor:'#0A083E',
+    buttonColor:"#0A083E",
+    buttonTextColor:'#FFF',
+   subscriptionName:"Digital + Print",
+   originalPrice:"900",
+   discount:"50",
+  buttonPlaceholder:"Subscribe Now",
+  finalPrice:"450",
+  benefits:[
+  "Access All Digital Features",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",    
+  ],
+  tiers:
+  [{time:"1 year",price:"300",_id:0} ,{time:'2 year',price:"500",_id:1},{time:'3 year',price:"750",_id:2}],
+
+ },   
+ {
+    id:4,
+    primaryColor:"#0A083E",
+    tickColor:"#8C7FF7",
+    isRecommended:false,
+    buttonColor:"#E73E88",
+    textColor:"#FFF",
+    benefitColor:"#FFF",
+    buttonTextColor:'#F9E1F8',
+   subscriptionName:"Digital + Print",
+   originalPrice:"978",
+   discount:"50",
+  buttonPlaceholder:"Subscribe Now",
+  finalPrice:"450",
+  benefits:[
+  "Access All Digital Features",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",    
+  ],
+  tiers:
+  [{time:"1 year",price:"300",_id:0} ,{time:'2 year',price:"500",_id:1},{time:'3 year',price:"750",_id:2}],
+
+ },   
+ {
+    id:5,
+    primaryColor:"#FFF",
+    tickColor:"#8C7FF7",
+    textColor:'#0A083E',
+    isRecommended:false,
+    benefitColor:'#0A083E',
+    buttonColor:"#0A083E",
+    buttonTextColor:'#FFF',
+   subscriptionName:"Digital + Print",
+   originalPrice:"900",
+   discount:"50",
+  buttonPlaceholder:"Subscribe Now",
+  finalPrice:"450",
+  benefits:[
+  "Access All Digital Features",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",    
+  ],
+  tiers:
+  [{time:"1 year",price:"300",_id:0} ,{time:'2 year',price:"500",_id:1},{time:'3 year',price:"750",_id:2}],
+
+ },   
+ {
+    id:6,
+    primaryColor:"#FFF",
+    tickColor:"#8C7FF7",
+    isRecommended:false,
+    benefitColor:'#0A083E',
+    buttonColor:"#0A083E",
+    buttonTextColor:'#FFF',
+    textColor:'#0A083E',
+   subscriptionName:"Digital + Print",
+   originalPrice:"900",
+   discount:"50",
+  buttonPlaceholder:"Subscribe Now",
+  finalPrice:"450",
+  benefits:[
+  "Access All Digital Features",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",
+  "Doorstep delievery of print edition",
+  "Access to outlook archives",    
+  ],
+  tiers:
+  [{time:"1 year",price:"300",_id:0} ,{time:'2 year',price:"500",_id:1},{time:'3 year',price:"750",_id:2}],
+ },   
+]
+export default mobiledata2;
